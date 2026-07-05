@@ -1,5 +1,5 @@
 Welcome to my Computer Science ePortfolio. This portfolio represents the knowledge, technical skills, and professional growth I have developed through my Bachelor of Science in Computer Science program at Southern New Hampshire University.
- 
+  
 Throughout this program, I have worked on projects involving software engineering, secure coding, databases, algorithms, artificial intelligence, testing, and full-stack development. Each project challenged me to think beyond just writing code by considering software architecture, performance, maintainability, security, and the overall user experience.
 
 For my capstone project, I chose to build my portfolio around enhancing a full-stack web application. Rather than presenting individual class assignments, this portfolio demonstrates how I can analyze an existing application, identify opportunities for improvement, and implement meaningful enhancements using modern software engineering practices.
