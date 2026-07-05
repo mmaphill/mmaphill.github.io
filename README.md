@@ -27,7 +27,7 @@ My professional interests are centered on software engineering, backend developm
 ## Abouit This Portfolio
 
 This portfolio includes:
-
+ 
 - Original project artifacts
 - Enhanced implementations
 - Code review presentation
