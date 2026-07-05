@@ -1,4 +1,4 @@
-Welcome to my Computer Science ePortfolio. This portfolio represents the knowledge, techincal skills, and professional growth I have developed through my Bachelor of Sceince in Computer Science program at Southern New Hampshire University.
+Welcome to my Computer Science ePortfolio. This portfolio represents the knowledge, technical skills, and professional growth I have developed through my Bachelor of Sceince in Computer Science program at Southern New Hampshire University.
  
 Throughout this program, I have worked on projects involving software engineering, secure coding, databases, algorithms, artificial intelligence, testing, and full-stack development. Each project challenged me to think beyong just writing code by considering software architecture, performance, maintainability, security, and the overall user experience.
 
