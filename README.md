@@ -14,7 +14,7 @@ For my capstone project, I chose to build my portfolio around enhancing a full-s
   - Refactoring code for better organization
   - Strengthening security and error handling
  
-- ** Algorithms and Data Structures**
+- **Algorithms and Data Structures**
   - Optimizing search and filtering
   - Improving application performance
   - Evaluting algorithm efficiency
