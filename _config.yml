@@ -1,0 +1,14 @@
+# Site Settings
+title: "Phill Nunez - ePortfolio"
+description: "A website to showcase my Projects"
+url: "https://mmaphill.github.io"
+
+# Build Settings
+permalink: /news/:title/
+markdown: kramdown
+
+# Them and Plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
