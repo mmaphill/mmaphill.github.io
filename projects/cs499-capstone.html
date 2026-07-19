@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CS 499 Capstone - Travlr Getaways Admin Portal</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			line-height: 1.6;
+			color: #333;
+			background: #f4f4f4;
+		}
+
+		.container {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+
+		header {
+			color: #d4a574;
+			text-decoration: none;
+		}
+
+		header a:hover {
+			text-decoration: underline;
+		}
+
+		h2 {
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+			border-bottom: 3px solid #d4a574;
+			padding-bottom: 0.5rem;
+			color: #2c3e50;
+		}
+
+		h3 {
+			color: #d4a574;
+			margin-top: 1.5rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.project-meta {
+			margin: 1.5rem 0;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+		}
+
+		.badge {
+			display: inline-block;
+			background: #e8e8e8;
+			padding: 0.4rem 0.8rem;
+			border-radius: 20px;
+			font-size: 0.9rem;
+			color: #555;
+		}
+
+		.demo-link {
+			background: #f9f9f9;
+			padding: 1.5rem;
+			border-radius: 8px;
+			margin: 2rem 0;
+			border-left: 4px solid #d4a574;
+		}
+
+		.demo-link h3 {
+			color: #d4a547;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 1.05rem;
+		}
+
+		.demo-link a:hover {
+			text-decoration: underline;
+		}
+
+		.demo-link p {
+			margin: 0.5rem 0;
+		}
+
+		.tech-stack {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
+			margin: 1.5rem 0;
+		}
+
+		.tech-stack ul {
+			margin-left: 1.5rem;
+		}
+		
+		.tech-stack li {
+			margin-bottom: 0.5rem;
+		}
+
+		.artifact-links {
+			background: #f9f9f9;
+			padding: 1.5rem;
+			border-radius: 8px;
+			margin: 2rem 0;
+		}
+
+		.artifact-links a {
+			display: inline-block;
+			margin: 0.5rem 1rem 0.5rem 0;
+			color: #d4a547;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.artifact-links a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			margin-left: 2rem;
+			line-height: 1.8;
+		}
+
+		li {
+			margin-bottom: 0.5rem;
+		}
+
+		.back-link {
+			margin-top: 3rem;
+			padding-top: 2rem;
+			border-top: 1px solid #ddd;
+		}
+
+		.back-link a {
+			color: #d4a574;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.back-link a:hover {
+			text-decoration: underline;
+		}
+
+		footer {
+			background: #2c3e50;
+			color: #999;
+			text-align: center;
+			padding: 2rem;
+			margin-top: 3rem;
+		}
+
+		@media (max-width: 768px) {
+			h1 {
+				font-size: 1.8rem;
+			}
+
+			.tech-stack {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="../index.html">Phill Nunez - ePortfolio</a></h1>
+	</header>
+
+	<main class="container">
+		<h1>Travlr Getaways Admin Portal</h1>
+		<p><em>CS 499 Capstone - Software Engineering & Design</em></p>
+
+		<div class="project-meta">
+			<span class="badge">Full-Stack</span>
+			<span class="badge">Node.js</span>
+			<span class="badge">Angular</span>
+			<span class="badge">MongoDB</span>
+			<span class="badge">TypeScript</span>
+			<span class="badge">CS 499</span>
+		</div>
+
+		<h2>Project Overview</h2>
+		<p>
+		A Professional full-stack web application demonstrating software engineering best practices. The admin portal enables authenticated administrators to manage travel packages through a responsive, type-safe interface. This project showcases the application of design patterns, architectural improvements, secure authentication, and professional code organization.
+		</p>
+
+		<div class="demo-link">
+			<h3>Live Demo</h3>
+			<p>
+			<strong>Admin Portal</strong><br>
+			<a href="https://travlr-phill.railway.app/admin" target="_blank">Admin Portal Link</a>
+			</p>
+		</div>
+
+		<h2>Key Features</h2>
+		<ul>
+			<li><strong>Secure Authentication:</strong> JWT tokens with password hashing (crypto.pbkdf2)</li>
+			<li><strong>Trip Management:</strong> Full CRUD operations for travel packages</li>
+			<li><strong>Type Safety:</strong> End-to-end TypeScript with strict interfaces</li>
+			<li><strong>Professional Error Handling:</strong> Centralized error responses and logging</li>
+			<li><strong>Authorization:</strong> Route guards preventing unauthorized access</li>
+			<li><strong>Responsive Design:</strong> Works on desktop and mobile devices</li>
+		</ul>
+
+		<h2>Technical Stack</h2>
+		<div class="tech-stack">
+			<div>
+				<h3>Backend</h3>
+				<ul>
+					<li>Node.js & Express.js</li>
+					<li>MongoDB & Mongoose</li>
+					<li>Passport.js</li>
+					<li>JWT Authentication</li>
+					<li>Custom Middleware</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Software Engineering Improvements</h2>
+		<ul>
+			<li><strong>40% Code Reduction:</strong> Service layer eliminated duplicate error handling</li>
+			<li><strong>100% Type Safety:</strong> TypeScript interfaces prevent runtime errors</li>
+			<li><strong>Centralized Error Handling:</strong>All errors managed from one location</li>
+			<li><strong>Design Patterns:</strong> Service Layer, Middleware, Observable, Dependancy Injections</li>
+			<li><strong>Authentication/Authorization</strong> JWT-based security with route protection</li>
+		</ul>
+
+		<h2>Documentation & Code</h2>
+		<div class="artifact-links">
+			<a href="../artifacts/CS499_Sotware_Engineering_Design_Narrative.md" target="_blank">Artifact Narrative (Learning Reflection)</a><br>
+			<a href="https://github.com/mmaphill/travlr" target="_blank">GitHub Repository (Source Code)</a><br>
+			<a href="../artifacts/CS499_Code_Review.pdf" target="_blank">Code Review Document</a>
+		</div>
+
+		<h2>What I Learned</h2>
+		<ul>
+			<li>How architectural decisions compo0und over time affecting maintainability</li>
+			<li>The power of centralizing cross-cutting concerns like error handling</li>
+			<li>Type safety as a design tool, not just compiler enforcement</li>
+			<li>Authentication as a system-wide architectural concern</li>
+			<li>Incremental improvement is safer than wholesale refactoring</li>
+		</ul>
+
+		<h2>CS 499 Learning Outcome Met</h2>
+		<ul>
+			<li><strong>Analyze and Evaluate Software Architecture:</strong> Identified and addressed structural weaknesses</li>
+			<li><strong>Apply Professional Software Engineering Practices:</strong> Implemented SOLID principles and design patterns</li>
+			<li><strong>Design and Implement Complex Systems:</strong> Full-stack coordination across multiple layers</li>
+			<li><strong>Communicate Techical Decisions:</strong> Documented rationale for all architectural choices</li>
+		</ul>
+
+		<div class="back-link">
+			<a href="../index.html">Back to Portfolio</a>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Phill Nunez - Computer Science Student at SNHU | <a href="https://github.com/mmaphill" style="color: #d4a574; text-decoration: none;">GitHub Profile</a></p>
+	</footer>
+</body>
+</html>
+

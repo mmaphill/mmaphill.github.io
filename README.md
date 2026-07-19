@@ -35,6 +35,33 @@ This portfolio includes:
 
 Each enhancement demonstrates not only the technical changes that were made, but also the reasoning behind those decisions and the growth I experienced throughout the Computer Science program.
 
+## CS 499 Capstone Project
+
+### Travlr Getaways Admin Portal
+**Full-Stack Web Application | Software Engineering & Design Enhancement**
+
+A professional full-stack application demonstrating software engineering best practices. This project showcases architectural improvements including design patterns, type safety, centralized error handling, and secure authentication—all guided by code review feedback.
+
+**Technologies:** Node.js • Angular • MongoDB • TypeScript • Express
+
+[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/travlr) | [Live Demo](https://travlr-phill.railway.app/admin)
+
+---
+
+## Key Achievements
+- **40% Code Reduction** through service layer pattern
+- **100% Type Safety** with TypeScript interfaces  
+- **85% Less Duplication** applying DRY principles
+- **Centralized Error Handling** for consistency
+- **Professional Architecture** with SOLID principles
+
+---
+
+## Artifacts & Documentation
+- [📄 Artifact Narrative - Learning Reflection](artifacts/CS499_Milestone_One_Artifact_Narrative_Revised.md)
+- [📋 Code Review Document](artifacts/CS499_Code_Review_Script_IMPROVED.pdf)
+- [💻 GitHub Repository - Source Code](https://github.com/mmaphill/travlr)
+
 ---
 
 Thank you for taking the time to review my portfolio. I hope it demonstrates not only the technical skills I have developed but also my approach to problem solving, continuous learning, and building secure, maintainable software.
