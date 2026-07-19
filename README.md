@@ -44,7 +44,7 @@ A professional full-stack application demonstrating software engineering best pr
 
 **Technologies:** Node.js • Angular • MongoDB • TypeScript • Express
 
-[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/travlr) | [Live Demo](https://travlr-phill.railway.app/admin)
+[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/cs465-fullstack) | [Live Demo](https://travlr-phill.railway.app/admin)
 
 ---
 
@@ -60,7 +60,7 @@ A professional full-stack application demonstrating software engineering best pr
 ## Artifacts & Documentation
 - [📄 Artifact Narrative - Learning Reflection](artifacts/CS499_Milestone_One_Artifact_Narrative_Revised.md)
 - [📋 Code Review Document](artifacts/CS499_Code_Review_Script_IMPROVED.pdf)
-- [💻 GitHub Repository - Source Code](https://github.com/mmaphill/travlr)
+- [💻 GitHub Repository - Source Code](https://github.com/mmaphill/cs465-fullstack)
 
 ---
 
