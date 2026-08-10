@@ -77,9 +77,9 @@ A professional full-stack application demonstrating software engineering best pr
 ---
 
 ## Artifacts & Documentation
-- [📄 Artifact Narrative - Software Engineering and Design](artifacts/3-2 Narrative.docx)
-- [📄 Artifact Narrative - Algorithms and Datastructure](artifacts/4-2 Narrative.docx)
-- [📄 Artifact Narrative - Database](artifacts/5-2 Narrative.docx)
+- [📄 Artifact Narrative - Software Engineering and Design](artifacts/3-2-Narrative.docx)
+- [📄 Artifact Narrative - Algorithms and Datastructure](artifacts/4-2-Narrative.docx)
+- [📄 Artifact Narrative - Database](artifacts/5-2-Narrative.docx)
 - [🎥 Code Review Video Part 1 (YouTube)](https://youtu.be/g12Vaj7ZMaw)
 - [🎥 Code Review Video Part 2 (YouTube)](https://youtu.be/QqyTjVK6HyY)
 - [💻 GitHub Repository - Source Code](https://github.com/mmaphill/cs465-fullstack)
