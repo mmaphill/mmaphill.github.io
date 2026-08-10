@@ -18,6 +18,12 @@ For my capstone project, I chose to build my portfolio around enhancing a full-s
   - Evaluating algorithm efficiency
   - Applying appropriate data structures
  
+- **Databases**
+  - Optimizing index design and query patterns
+  - Reducing unnecessary documentation hydration
+  - Eliminating implicit, unconditional joins
+  - Verifying performance through query plan analysis
+ 
 ## Professional Goals
 
 My professional interests are centered on software engineering, backend development, and secure application development. I enjoy building reliable, scalable applications that solve real-world problems while following industry best practices for security, maintainability, and performance.
@@ -49,17 +55,33 @@ A professional full-stack application demonstrating software engineering best pr
 ---
 
 ## Key Achievements
-- **40% Code Reduction** through service layer pattern
-- **100% Type Safety** with TypeScript interfaces  
-- **85% Less Duplication** applying DRY principles
-- **Centralized Error Handling** for consistency
-- **Professional Architecture** with SOLID principles
+**Software Design and Engineering**
+- 40% Code Reduction through service layer pattern
+- 100% Type Safety with TypeScript interfaces
+- 85% Less Duplication applying DRY principles
+- Centralized Error Handling for consistency
+- Professional Architecture with SOLID principles
+
+**Algorithms and Data Structures**
+- Custom Trie for O(m) prefix search across trip name, resort, and code
+- LRU cache for O(1) cached recommendation lookups
+- MinHeap-based top-K selection for O(n log k) trip ranking
+- Content-based recommendation engine personalized to user preferences
+
+**Databases**
+- Index footprint reduced from 6 to 2, each backed by a real query pattern
+- `.lean()` applied across all read-only queries, eliminating unnecessary document hydration
+- Removed an implicit, unconditional populate join firing on every profile query
+- Verified index usage empirically via MongoDB Compass Explain Plan
 
 ---
 
 ## Artifacts & Documentation
-- [📄 Artifact Narrative - Learning Reflection](artifacts/CS499_Milestone_One_Artifact_Narrative_Revised.md)
-- [📋 Code Review Document](artifacts/CS499_Code_Review_Script_IMPROVED.pdf)
+- [📄 Artifact Narrative - Software Engineering and Design](artifacts/3-2 Narrative.docx)
+- [📄 Artifact Narrative - Algorithms and Datastructure](artifacts/4-2 Narrative.docx)
+- [📄 Artifact Narrative - Database](artifacts/5-2 Narrative.docx)
+- [🎥 Code Review Video Part 1 (YouTube)](https://youtu.be/g12Vaj7ZMaw)
+- [🎥 Code Review Video Part 2 (YouTube)](https://youtu.be/QqyTjVK6HyY)
 - [💻 GitHub Repository - Source Code](https://github.com/mmaphill/cs465-fullstack)
 
 ---
