@@ -2,6 +2,7 @@
 title: "Phill Nunez"
 description: "A website to showcase my Projects"
 url: "https://mmaphill.github.io"
+nav_title: "Self-Assessment"
 
 # Build Settings
 permalink: /news/:title/
