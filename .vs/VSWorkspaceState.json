@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\artifacts",
-    "\\projects",
-    "\\_site\\artifacts",
-    "\\_site\\assets",
-    "\\_site\\projects"
+    "\\projects"
   ],
-  "SelectedNode": "\\Gemfile",
+  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }
