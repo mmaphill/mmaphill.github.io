@@ -1,3 +1,5 @@
+## **Professional Self-Assessment**
+
 Completing my Computer Science degree at Southern New Hampshire University has changed how I approach software development. I am no longer looking at applications simply as code blocks that work. I see architecture, performance, security, maintainability, and how each decision affects the rest of the system.
 
 My CS 499 capstone, Travlr Getaways, is example of the growth I have experienced. I took an existing full-stack application and improved it across software engineering, algorithms and data structures, and database performance. The result was not just new functionality, but a more maintainable, efficient, and secure application.
