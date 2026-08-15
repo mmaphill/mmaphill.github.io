@@ -61,7 +61,7 @@ A professional full-stack application demonstrating software engineering best pr
 
 Technologies: Node.js • Angular • MongoDB • TypeScript • Express
 
-[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/cs465-fullstack) | [Live Demo](https://travlr-phill.railway.app/admin)
+[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/cs465-fullstack) | <a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank" rel="noopener noreferrer">Live Demo</a>
 
 ---
 
