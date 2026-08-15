@@ -1,0 +1,54 @@
+---
+---
+
+@import "minima";
+
+// Bold the homepage title
+.home .page-heading {
+  font-weight: bold;
+}
+
+// Header Polish
+.site-header {
+  border-bottom: 3px solid #2a6f6a;
+  padding: 1.5rem 0;
+}
+
+.site-title {
+  font-size: 1.75rem !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-title::after {
+  content: "Full-Stack Software Engineer";
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+
+// Nav links
+.site-nav .page-link {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  position: relative;
+}
+
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #2a6f6a;
+  transition: width 0.25s ease;
+}
+
+.site-nav .page-link::hover::after {
+  width: 100%;
+}
