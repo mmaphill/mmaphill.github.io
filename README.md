@@ -1,9 +1,8 @@
-## Professional Self-Assessment
 Completing my Computer Science degree at Southern New Hampshire University has changed how I approach software development. I am no longer looking at applications simply as code blocks that work. I see architecture, performance, security, maintainability, and how each decision affects the rest of the system.
 
 My CS 499 capstone, Travlr Getaways, is example of the growth I have experienced. I took an existing full-stack application and improved it across software engineering, algorithms and data structures, and database performance. The result was not just new functionality, but a more maintainable, efficient, and secure application.
 
-## Enhancement Focus
+## **Enhancement Focus**
 
 ### Software Design and Engineering
 I strengthened the Travlr application by introducing a service-layer architecture, improving TypeScript type safety, applying SOLID and DRY principles, and centralizing error handling. These changes have reduced code duplication and created a structure that is easier to maintain and extend in future updates. 
@@ -27,7 +26,7 @@ Security has become part of how I approach development rather than something add
 
 My goal as a developer is to build applications that are secure by design while remaining practical, maintainable, and easy to use.
  
-## Professional Goals
+## **Professional Goals**
 
 The biggest change I see in myself is the ability to look at an existing system, understand how its pieces interact, identify weaknesses, and make improvements without losing sight of the larger application.
 
@@ -35,7 +34,7 @@ I am interested in software engineering, backend development, and secure applica
 
 My ePortfolio demonstrates that progression through one application and three different engineering perspectives: design, algorithms, and data.
 
-## About This Portfolio
+## **About This Portfolio**
 
 This portfolio includes:
  
@@ -48,7 +47,7 @@ This portfolio includes:
 
 Each enhancement demonstrates not only the technical changes that were made, but also the reasoning behind those decisions and the growth I experienced throughout the Computer Science program.
 
-## CS 499 Capstone Project
+## **CS 499 Capstone Project**
 
 ### Travlr Getaways Admin Portal
 Full-Stack Web Application | Software Engineering & Design Enhancement
@@ -61,7 +60,7 @@ Technologies: Node.js • Angular • MongoDB • TypeScript • Express
 
 ---
 
-## Key Achievements
+## **Key Achievements**
 Software Design and Engineering
 - 40% Code Reduction through service layer pattern
 - 100% Type Safety with TypeScript interfaces
@@ -83,7 +82,7 @@ Databases
 
 ---
 
-## Artifacts & Documentation
+## **Artifacts & Documentation**
 - [📄 Artifact Narrative - Software Engineering and Design](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/3-2-Narrative.docx&embedded=true)
 - [📄 Artifact Narrative - Algorithms and Datastructure](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/4-2-Narrative.docx&embedded=true)
 - [📄 Artifact Narrative - Database](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/5-2-Narrative.docx&embedded=true)
