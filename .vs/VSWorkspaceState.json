@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\artifacts",
-    "\\projects"
+    "\\projects",
+    "\\_site",
+    "\\_site\\assets"
   ],
-  "SelectedNode": "\\index.md",
+  "SelectedNode": "\\_site\\assets\\main.css",
   "PreviewInSolutionExplorer": false
 }

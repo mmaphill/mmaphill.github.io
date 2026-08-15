@@ -9,24 +9,24 @@ My CS 499 capstone, Travlr Getaways, is example of the growth I have experienced
 
 ## **Enhancement Focus**
 
-### Software Design and Engineering
+### *Software Design and Engineering*
 I strengthened the Travlr application by introducing a service-layer architecture, improving TypeScript type safety, applying SOLID and DRY principles, and centralizing error handling. These changes have reduced code duplication and created a structure that is easier to maintain and extend in future updates. 
 
 I also learned the importance of approaching development from another developer's perspective. Good software should not only work—it should be understandable, testable, and maintainable.
  
-### Algorithms and Data Structures
+### *Algorithms and Data Structures*
 I applied data structures to solve actual application problems rather than using them simply because they were required. I implemented a Trie for efficient prefix searching, an LRU cache for repeated recommendation requests, and a MinHeap for efficient top-K trip selection.
 
 These enhancements strengthened my ability to evaluate complexity, identify performance bottlenecks, and choose solutions based on the requirements of the application.
  
-### Databases
+### *Databases*
 The database enhancement taught me to look beyond whether a query works and determine whether it works efficiently.
 
 I set the application to two indexes backed by actual query patterns, applied .lean() to read-only queries, removed unnecessary document population, and verified database behavior using MongoDB's Explain Plan.
 
 Most importantly, I learned to validate performance improvements with evidence rather than assumptions.
 
-### Security
+### *Security*
 Security has become part of how I approach development rather than something added at the end of a project. Throughout Travlr, I worked with authentication, authorization, password hashing, session management, JWTs, and protection of personalized user data.
 
 My goal as a developer is to build applications that are secure by design while remaining practical, maintainable, and easy to use.
