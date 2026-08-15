@@ -4,7 +4,7 @@ description: "A website to showcase my Projects"
 url: "https://mmaphill.github.io"
 
 # Build Settings
-permalink: /news/:title/
+permalink: :title/
 markdown: kramdown
 
 # Them and Plugins

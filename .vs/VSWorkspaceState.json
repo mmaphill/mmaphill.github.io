@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\projects"
+    "\\artifacts",
+    "\\projects",
+    "\\_site\\artifacts",
+    "\\_site\\assets",
+    "\\_site\\projects"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Gemfile",
   "PreviewInSolutionExplorer": false
 }
