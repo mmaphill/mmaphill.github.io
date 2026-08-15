@@ -189,24 +189,24 @@ nav_title: "Travlr Getaways"
 
 		<h2>Project Overview</h2>
 		<p>
-		A Professional full-stack web application demonstrating software engineering best practices. The admin portal enables authenticated administrators to manage travel packages through a responsive, type-safe interface. This project showcases the application of design patterns, architectural improvements, secure authentication, and professional code organization.
+			A professional full-stack web application demonstrating software engineering best practices. The public portal showcases a responsive, performance-optimized browsing and search experience — including a custom-built search index, cached recommendations, and optimized database queries. This project demonstrates the application of design patterns, algorithmic problem-solving, and database performance tuning across a full-stack architecture. An authenticated Admin Portal for managing travel packages is a separate deployment, launching shortly.
 		</p>
 
 		<div class="demo-link">
 			<h3>Live Demo</h3>
 			<p>
-			<strong>Public Portal</strong><br>
-			<a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank">Travlr Getaways Home Page</a>
+				<strong>Public Portal</strong><br>
+				<a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank">Travlr Getaways Home Page</a>
 			</p>
 		</div>
+		<p><em>Note: This demo showcases the public-facing trip, search, and browsing experience.</em></p>
 
 		<h2>Key Features</h2>
 		<ul>
-			<li><strong>Secure Authentication:</strong> JWT tokens with password hashing (crypto.pbkdf2)</li>
-			<li><strong>Trip Management:</strong> Full CRUD operations for travel packages</li>
-			<li><strong>Type Safety:</strong> End-to-end TypeScript with strict interfaces</li>
-			<li><strong>Professional Error Handling:</strong> Centralized error responses and logging</li>
-			<li><strong>Authorization:</strong> Route guards preventing unauthorized access</li>
+			<li><strong>Trip Search:</strong> Custom Trie-based prefix search across trip names, resorts, and codes (O(m) lookup)</li>
+			<li><strong>Smart Recommendations:</strong> LRU-cached, content-based recommendation engine (O(1) cached lookups)</li>
+			<li><strong>Optimized Rankings:</strong> MinHeap-based top-K trip selection (O(n log k))</li>
+			<li><strong>Database Performance:</strong> Indexed queries with .lean() optimization for read-heavy operations</li>
 			<li><strong>Responsive Design:</strong> Works on desktop and mobile devices</li>
 		</ul>
 
@@ -229,7 +229,7 @@ nav_title: "Travlr Getaways"
 			<li><strong>40% Code Reduction:</strong> Service layer eliminated duplicate error handling</li>
 			<li><strong>100% Type Safety:</strong> TypeScript interfaces prevent runtime errors</li>
 			<li><strong>Centralized Error Handling: </strong>All errors managed from one location</li>
-			<li><strong>Design Patterns:</strong> Service Layer, Middleware, Observable, Dependancy Injection</li>
+			<li><strong>Design Patterns:</strong> Service Layer, Middleware, Observable, Dependency Injection</li>
 			<li><strong>Authentication/Authorization</strong> JWT-based security with route protection</li>
 		</ul>
 
@@ -238,7 +238,7 @@ nav_title: "Travlr Getaways"
 			<a href="https://youtu.be/g12Vaj7ZMaw" target="_blank">Code Review Video Part 1 (YouTube)</a>
 			<a href="https://youtu.be/QqyTjVK6HyY" target="_blank">Code Review Video Part 2 (YouTube)</a>
 			<a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/3-2-Narrative.docx&embedded=true" target="_blank">Artifact Narrative (Software Engineering and Design)</a><br>
-			<a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/4-2-Narrative.docx&embedded=true" target="_blank">Artifact Narrative (Algorithms and Data Structure</a>
+			<a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/4-2-Narrative.docx&embedded=true" target="_blank">Artifact Narrative (Algorithms and Data Structure)</a>
 			<a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/5-2-Narrative.docx&embedded=true" target="_blank">Artifact Narrative (Database)</a>
 			<a href="https://github.com/mmaphill/cs465-fullstack" target="_blank">GitHub Repository (Source Code)</a><br>
 		</div>
