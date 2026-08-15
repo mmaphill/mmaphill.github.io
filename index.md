@@ -88,9 +88,9 @@ Databases
 ---
 
 ## **Artifacts & Documentation**
-- [📄 Artifact Narrative - Software Engineering and Design](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/3-2-Narrative.docx&embedded=true)
-- [📄 Artifact Narrative - Algorithms and Datastructure](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/4-2-Narrative.docx&embedded=true)
-- [📄 Artifact Narrative - Database](https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/5-2-Narrative.docx&embedded=true)
+- <a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/3-2-Narrative.docx&embedded=true" target="_blank" rel="noopener noreferrer">📄 Artifact Narrative - Software Engineering and Design</a>
+- <a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/4-2-Narrative.docx&embedded=true" target="_blank" rel="noopener noreferrer">📄 Artifact Narrative - Algorithms and Datastructure</a>
+- <a href="https://docs.google.com/viewer?url=https://mmaphill.github.io/artifacts/5-2-Narrative.docx&embedded=true" target="_blank" rel="noopener noreferrer">📄 Artifact Narrative - Database</a>
 - [🎥 Code Review Video Part 1 (YouTube)](https://youtu.be/g12Vaj7ZMaw)
 - [🎥 Code Review Video Part 2 (YouTube)](https://youtu.be/QqyTjVK6HyY)
 - [💻 GitHub Repository - Source Code](https://github.com/mmaphill/cs465-fullstack)
