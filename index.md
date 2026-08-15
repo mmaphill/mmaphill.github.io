@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Professional Self-Assessment
+nav_title: Self-Assessment
 ---
 
 Completing my Computer Science degree at Southern New Hampshire University has changed how I approach software development. I am no longer looking at applications simply as code blocks that work. I see architecture, performance, security, maintainability, and how each decision affects the rest of the system.
