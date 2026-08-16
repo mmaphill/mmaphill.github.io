@@ -189,28 +189,40 @@ nav_title: "Travlr Getaways"
 
 		<h2>Project Overview</h2>
 		<p>
-			A professional full-stack web application demonstrating software engineering best practices. The public portal showcases a responsive, performance-optimized browsing and search experience — including a custom-built search index, cached recommendations, and optimized database queries. This project demonstrates the application of design patterns, algorithmic problem-solving, and database performance tuning across a full-stack architecture. An authenticated Admin Portal for managing travel packages is a separate deployment, launching shortly.
+			A professional full-stack web application demonstrating software engineering best practices across two deployments. The admin portal enables authenticated administrators to manage travel packages through a secure, type-safe interface. The public portal delivers a responsive, performance-optimized browsing and search experience — including a custom-built search index, cached recommendations, and optimized database queries. Together, they demonstrate the application of design patterns, algorithmic problem-solving, and full-stack architectural improvements.
 		</p>
 
 		<div class="demo-link">
 			<h3>Live Demo</h3>
-			<p><br />
+			<p>
+				<br />
 				<strong>Admin Portal</strong><br>
 				<a href="https://cs465-fullstack-production.up.railway.app/admin" target="_blank">Travlr Getaways Admin Page</a><br /><br />
 				<strong>Public Portal</strong><br />
 				<a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank">Travlr Getaways Home Page</a>
 			</p>
 		</div>
-		<p><em>Note: This demo showcases the public-facing trip, search, and browsing experience.</em></p>
+		<p><em>Note: Both portals share the same backend, database, and authentication layer.</em></p>
 
 		<h2>Key Features</h2>
+
+		<h3>Admin Portal</h3>
+		<ul>
+			<li><strong>Secure Authentication:</strong> JWT tokens with password hashing (crypto.pbkdf2)</li>
+			<li><strong>Trip Management:</strong> Full CRUD operations for travel packages</li>
+			<li><strong>Type Safety:</strong> End-to-end TypeScript with strict interfaces</li>
+			<li><strong>Authorization:</strong> Route guards preventing unauthorized access</li>
+		</ul>
+
+		<h3>Public Portal</h3>
 		<ul>
 			<li><strong>Trip Search:</strong> Custom Trie-based prefix search across trip names, resorts, and codes (O(m) lookup)</li>
 			<li><strong>Smart Recommendations:</strong> LRU-cached, content-based recommendation engine (O(1) cached lookups)</li>
 			<li><strong>Optimized Rankings:</strong> MinHeap-based top-K trip selection (O(n log k))</li>
 			<li><strong>Database Performance:</strong> Indexed queries with .lean() optimization for read-heavy operations</li>
-			<li><strong>Responsive Design:</strong> Works on desktop and mobile devices</li>
 		</ul>
+
+		<p><strong>Responsive Design:</strong> Both portals work on desktop and mobile devices.</p>
 
 		<h2>Technical Stack</h2>
 		<div class="tech-stack">
@@ -222,6 +234,16 @@ nav_title: "Travlr Getaways"
 					<li>Passport.js</li>
 					<li>JWT Authentication</li>
 					<li>Custom Middleware</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Frontend</h3>
+				<ul>
+					<li>Angular 21 (standalone components)</li>
+					<li>TypeScript</li>
+					<li>RxJS</li>
+					<li>Bootstrap</li>
+					<li>Reactive Forms</li>
 				</ul>
 			</div>
 		</div>
