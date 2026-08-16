@@ -60,9 +60,14 @@ Full-Stack Web Application | Software Engineering & Design Enhancement
 
 A professional full-stack application demonstrating software engineering best practices. This project showcases architectural improvements including design patterns, type safety, centralized error handling, and secure authentication—all guided by code review feedback.
 
+### Travlr Getaways Public Portal
+Full-Stack Web Application | Search & Performance Optimization
+
+A responsive, performance-optimized public portal for browsing and searching travel packages. This project showcases custom algorithmic design - including Trie-based search index, LRU-cached recommendations, and MinHeap trip ranking - paired with optimized database queries and a type-safe, full-stack architecture.
+
 Technologies: Node.js • Angular • MongoDB • TypeScript • Express
 
-[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/cs465-fullstack) | <a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank" rel="noopener noreferrer">Live Demo</a>
+[View Project Details](projects/cs499-capstone.html) | [GitHub Repository](https://github.com/mmaphill/cs465-fullstack) | <a href="https://cs465-fullstack-production.up.railway.app/admin" target="_blank" rel="noopener noreferrer">Admin Portal Demo</a> | <a href="https://cs465-fullstack-production.up.railway.app/index" target="_blank" rel="noopener noreferrer">Public Portal Demo</a>
 
 ---
 
